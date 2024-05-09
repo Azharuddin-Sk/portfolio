@@ -43,7 +43,7 @@ function Project() {
   return (
     <div
       name="portfolio"
-      className="h-screen text-white flex flex-col items-center justify-center gap-10 mx-40 my-20"
+      className="sm:h-screen text-white flex flex-col items-center justify-center gap-10 sm:mx-40 mx-10 my-40"
     >
       <div>
         <p className="text-6xl font-bold px-2 border-b-8 border-purple-500">

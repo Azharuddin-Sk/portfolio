@@ -24,7 +24,7 @@ function NavBar() {
     },
   ];
   return (
-    <div className="flex justify-between items-center mx-14 my-5 text-white">
+    <div className="flex justify-between items-center sm:mx-14 my-5 text-white">
       <div>
         <h2 className="text-4xl font-signature ml-2">Azharuddin</h2>
       </div>

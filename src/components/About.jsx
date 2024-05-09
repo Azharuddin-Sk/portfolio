@@ -4,7 +4,7 @@ function About() {
   return (
     <div
       name="about"
-      className="h-screen text-white flex flex-col items-center justify-center gap-20 mx-40 my-20"
+      className="sm:h-screen text-white flex flex-col items-center justify-center gap-20 sm:mx-20 mx-5 my-20"
     >
       <div className="relative">
         <h2 className="text-6xl font-bold px-2 border-b-8 border-purple-500">
