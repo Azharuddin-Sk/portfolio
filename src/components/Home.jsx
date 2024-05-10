@@ -21,7 +21,7 @@ function Home() {
         Redux, Bootstrap and Tailwind CSS.
       </p>
 
-      <div className="flex items-center sm:gap-12 gap-5 text-white text-2xl font-medium mt-10">
+      <div className="flex items-center sm:gap-12 gap-2 text-white text-2xl font-medium mt-10">
         <div className="px-12 py-4 rounded-full bg-gradient-to-r from-purple-600 to-orange-500 cursor-pointer hover:border-2 border-white">
           <Link to="portfolio" smooth duration={500}>
             Portfolio

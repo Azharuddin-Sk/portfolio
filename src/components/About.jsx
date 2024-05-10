@@ -25,7 +25,7 @@ function About() {
             <p>
               My passion for web development drives me to learn various web
               technologies and build awesome projects. I'm excited to
-              collaborate with esteemed organizations and contribute to their
+              collaborate with an esteemed organization and contribute to its
               success and growth.
             </p>
           </div>
