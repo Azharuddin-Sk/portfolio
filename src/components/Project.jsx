@@ -1,42 +1,42 @@
 import React from "react";
-import chatGPT from "../assets/project/chatGPT.png";
-import ecommerce from "../assets/project/ecommerce.png";
-import reactWeather from "../assets/project/reactWeather.png";
+import mernchatapp from "../assets/project/mernchatapp.png";
+import foodapp from "../assets/project/foodapp.png";
+import tinyurl from "../assets/project/tinyurl.png";
 import tictactoe from "../assets/project/tictactoe.png";
-import tts from "../assets/project/tts.png";
+import weatherapp from "../assets/project/weatherapp.png";
 import vitube from "../assets/project/vitube.png";
 
 function Project() {
   const projects = [
     {
       id: 1,
+      src: mernchatapp,
+      title: "MERN Chat App",
+    },
+    {
+      id: 2,
+      src: foodapp,
+      title: "Food Delivery App",
+    },
+    {
+      id: 3,
+      src: tinyurl,
+      title: "URL Shortener",
+    },
+    {
+      id: 4,
       src: tictactoe,
       title: "Multiplayer Tictactoe game",
     },
     {
-      id: 2,
-      src: vitube,
-      title: "Youtube clone",
-    },
-    {
-      id: 3,
-      src: tts,
-      title: "Texttospeech converter",
-    },
-    {
-      id: 4,
-      src: reactWeather,
+      id: 5,
+      src: weatherapp,
       title: "Weather forecasting app",
     },
     {
-      id: 5,
-      src: ecommerce,
-      title: "Ecommerce website",
-    },
-    {
       id: 6,
-      src: chatGPT,
-      title: "chatGPT clone",
+      src: vitube,
+      title: "Youtube clone",
     },
   ];
 

@@ -13,11 +13,11 @@ function Home() {
           Azharuddin Shaikh,
         </span>
         <br />
-        Frontend Developer
+        Fullstack Web Developer
       </h1>
       <p className="sm:w-3/5 mx-5 text-center text-2xl leading-10">
-        I'm an engineer passionate about web development, proficient in
-        technologies such as HTML, CSS, JavaScript, React.js, Node.js, Git,
+        I'm an engineer passionate about web development, proficient in MERN
+        stack including HTML, CSS, JavaScript, React.js, Node.js, MongoDB, Git,
         Redux, Bootstrap and Tailwind CSS.
       </p>
 

@@ -5,6 +5,7 @@ import javascript from "../assets/javascript.png";
 import reactImage from "../assets/react.png";
 import reduxImage from "../assets/redux.png";
 import node from "../assets/node.png";
+import mongoDB from "../assets/mongoDB.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
 
@@ -36,15 +37,15 @@ function Skills() {
     },
     {
       id: 5,
-      src: reduxImage,
-      title: "Redux",
-      style: "shadow-purple-500",
-    },
-    {
-      id: 6,
       src: node,
       title: "Node",
       style: "shadow-green-500",
+    },
+    {
+      id: 6,
+      src: mongoDB,
+      title: "MongoDB",
+      style: "shadow-green-900",
     },
     {
       id: 7,
@@ -57,6 +58,12 @@ function Skills() {
       src: tailwind,
       title: "Tailwind",
       style: "shadow-sky-400",
+    },
+    {
+      id: 9,
+      src: reduxImage,
+      title: "Redux",
+      style: "shadow-purple-500",
     },
   ];
 
