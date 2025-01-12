@@ -12,15 +12,15 @@ function NavBar() {
     },
     {
       id: 2,
-      link: "about",
+      link: "skills",
     },
     {
       id: 3,
-      link: "portfolio",
+      link: "about",
     },
     {
       id: 4,
-      link: "skills",
+      link: "portfolio",
     },
   ];
   return (
@@ -58,7 +58,7 @@ function NavBar() {
       {nav && (
         <ul className="flex flex-col items-center absolute top-0 right-0 w-1/4 h-screen bg-gradient-to-b from-black to-gray-800 text-gray-500">
           {links.map(({ id, link }) => (
-            <li key={id} className="py-4 cursor-pointer capitalize text-xl">
+            <li key={id} className="py-2 cursor-pointer capitalize text-xl">
               <Link
                 onClick={() => setNav(!nav)}
                 to={link}

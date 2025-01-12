@@ -14,16 +14,9 @@ export default {
             transform: "translateY(0)",
           },
         },
-
-        slideInFromRight: {
-          "0%": { opacity: "0", transform: "translateX(100%)" },
-          "60%": { opacity: "1", transform: "translateX(-20%)" },
-          "100%": { opacity: "1", transform: "translateX(0%)" },
-        },
       },
       animation: {
         slidein: "slidein 1s ease var(--slidein-delay, 0) forwards",
-        slideInFromRight: "slideInFromRight 2s ease-in forwards", // Define animation duration and easing
       },
     },
     fontFamily: {
