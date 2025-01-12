@@ -24,7 +24,7 @@ function NavBar() {
     },
   ];
   return (
-    <div className="flex justify-between items-center sm:mx-14 my-5 text-white">
+    <div className="flex justify-between items-center sm:mx-12 my-6 text-white">
       <div>
         <h2 className="text-4xl font-signature ml-2">Azharuddin</h2>
       </div>
@@ -50,18 +50,15 @@ function NavBar() {
 
       <div
         onClick={() => setNav(!nav)}
-        className="cursor-pointer pr-4 z-10 text-gray-500 md:hidden"
+        className="cursor-pointer px-1 z-10 text-gray-500 md:hidden"
       >
         {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
       </div>
 
       {nav && (
-        <ul className="flex flex-col justify-center items-center absolute top-0 right-0 w-1/2 h-screen bg-gradient-to-b from-black to-gray-800 text-gray-500">
+        <ul className="flex flex-col items-center absolute top-0 right-0 w-1/4 h-screen bg-gradient-to-b from-black to-gray-800 text-gray-500">
           {links.map(({ id, link }) => (
-            <li
-              key={id}
-              className="px-4 cursor-pointer capitalize py-6 text-4xl"
-            >
+            <li key={id} className="py-4 cursor-pointer capitalize text-xl">
               <Link
                 onClick={() => setNav(!nav)}
                 to={link}

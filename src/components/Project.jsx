@@ -43,15 +43,15 @@ function Project() {
   return (
     <div
       name="portfolio"
-      className="sm:h-screen text-white flex flex-col items-center justify-center gap-10 sm:mx-40 mx-10 my-40"
+      className="sm:h-screen text-white flex flex-col items-center justify-center gap-10 sm:mx-40 mx-10 sm:my-40"
     >
       <div>
-        <p className="text-6xl font-bold px-2 border-b-8 border-purple-500">
+        <p className="text-5xl font-bold px-2 border-b-8 border-purple-500">
           Projects
         </p>
       </div>
 
-      <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
+      <div className="w-full grid sm:grid-cols-2 md:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
         {projects.map(({ id, src, title }) => (
           <div
             key={id}
