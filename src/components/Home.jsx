@@ -5,7 +5,7 @@ function Home() {
   return (
     <div
       name="home"
-      className="h-screen flex flex-col items-center justify-center gap-8 text-white"
+      className="h-screen flex flex-col items-center justify-center gap-6 text-white"
     >
       <h1 className="sm:w-3/4 text-center text-2xl font-bold md:text-5xl animate-slidein opacity-0 [--slidein-delay:500ms] ...">
         Hi, I'm{" "}
